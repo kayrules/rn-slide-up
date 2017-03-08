@@ -134,7 +134,7 @@ export default class FloatingPanel extends Component
 						this.state.handlerMargin,
 						{toValue: this.props.handlerMargin}
 					).start();
-					this.setState({expanded: false});					
+					this.setState({expanded: false});
 				}
 			}
 		});
@@ -167,7 +167,7 @@ export default class FloatingPanel extends Component
 						<TouchableWithoutFeedback
 							onPress={this.measure.bind(this)}
 							>
-							<View style={{backgroundColor:'red'}}>
+							<View style={{backgroundColor:'transparent'}}>
 								<Text style={{padding: 10}}>
 									Welcome! [{this.state.handlerPos}]
 								</Text>
